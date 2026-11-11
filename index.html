@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Double Five Capital</title>
+<meta name="description" content="Double Five Capital — hospitality and lifestyle. Miami, FL.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#f7f4ee">
+<style>
+:root {
+--bg: #f7f4ee;
+--ink: #1f2421;
+--muted: #7b7f78;
+--rule: rgba(31, 36, 33, 0.22);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+background: var(--bg);
+color: var(--ink);
+font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+min-height: 100dvh;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+}
+main {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 48px 24px;
+}
+h1 {
+font-weight: 400;
+font-size: clamp(20px, 4vw, 34px);
+letter-spacing: 0.34em;
+text-transform: uppercase;
+padding-left: 0.34em;
+line-height: 1.5;
+}
+.rule {
+width: 48px;
+height: 1px;
+background: var(--rule);
+margin: 30px auto;
+}
+.tag {
+color: var(--muted);
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: clamp(11px, 1.5vw, 13px);
+letter-spacing: 0.26em;
+text-transform: uppercase;
+padding-left: 0.26em;
+line-height: 1.8;
+}
+.place {
+margin-top: 14px;
+color: var(--muted);
+font-size: clamp(13px, 1.7vw, 15px);
+font-style: italic;
+letter-spacing: 0.04em;
+}
+.portfolio {
+text-align: center;
+padding: 0 24px 28px;
+}
+.portfolio .label {
+color: var(--muted);
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 10px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+padding-left: 0.3em;
+opacity: 0.8;
+margin-bottom: 12px;
+}
+.portfolio .names {
+font-size: clamp(15px, 2vw, 18px);
+letter-spacing: 0.06em;
+}
+.portfolio a {
+color: inherit;
+text-decoration: none;
+transition: opacity 0.2s ease;
+}
+.portfolio a:hover, .portfolio a:focus-visible {
+opacity: 0.55;
+outline: none;
+}
+.portfolio .dot {
+display: inline-block;
+margin: 0 16px;
+color: var(--muted);
+}
+footer {
+text-align: center;
+padding: 24px;
+color: var(--muted);
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 10.5px;
+letter-spacing: 0.14em;
+text-transform: uppercase;
+opacity: 0.75;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Double Five Capital</h1>
+<div class="rule" aria-hidden="true"></div>
+<p class="tag">Hospitality &amp; lifestyle</p>
+<p class="place">Miami, FL</p>
+</main>
+<section class="portfolio" aria-label="Portfolio">
+<p class="label">Portfolio</p>
+<p class="names"><a href="https://maisonbonbon.com" target="_blank" rel="noopener">Maison Bonbon</a><span class="dot" aria-hidden="true">&middot;</span><a href="https://www.bad-sport.com/episode/01" target="_blank" rel="noopener">Bad Sport</a></p>
+</section>
+<footer>&copy; Double Five Capital LLC &middot; Est. 2024</footer>
+</body>
+</html>
